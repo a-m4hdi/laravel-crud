@@ -10,9 +10,10 @@
 <body>
         @include('layout.navigation')
         <div class="main">
+        <div class="container">
             @yield('content')
         </div>
-
+        </div>
     <script src="{{ asset('/js/app.min.js') }}"></script>
 </body>
 </html>
