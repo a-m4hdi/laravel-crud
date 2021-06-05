@@ -27,36 +27,37 @@ In addition, error handling is properly implemented in this project.</p>
 
 <p>1. Clone the project using the following command:</p>
 <code>git clone https://github.com/a-m4hdi/laravel-crud.git </code>
-<br>
+
+<br/>
 <p>2. Execute the following command in the root path of the project.</p>
 <code>composer install</code>
-<br>
+<br/>
 <p>3. Execute the following command to install the frontend requirements.</p>
 <code>npm install</code>
-<br>
+<br/>
 <p>4. Run the following command to compile JavaScript and Sass files.</p>
 <code>npm run prod</code>
-<br>
+<br/>
 <p>5. Run the following command to compile JavaScript and Sass files.</p>
 <code>npm run prod</code>
-<br>
+<br/>
 <p>6. Set up your database connection through <code>.env.example</code> file.</p>
-<p>Rename .env.example file to .env file</p>
-<br>
-<p>7. Execute the following command to create the desired table in the database.</p>
+<p>7. Rename .env.example file to .env file</p>
+<br/>
+<p>8. Execute the following command to create the desired table in the database.</p>
 <code>php artisan migrate:refresh</code>
-<br>
-<p>8. Execute the following command to generate the key.</p>
+<br/>
+<p>9. Execute the following command to generate the key.</p>
 <code>php artisan key:generate</code>
-<br>
-<p>9. Execute the following command to create the desired table in the database.</p>
+<br/>
+<p>10. Execute the following command to create the desired table in the database.</p>
 <code>php artisan migrate:refresh</code>
-<br>
-<p>10. Execute the following command to run the application.</p>
-<code>php artisan serve</code>
-<br>
+<br/>
 <p>11. Execute the following command to run the application.</p>
 <code>php artisan serve</code>
-<br>
-<p>Finally, call the following path in your browser.</p>
+<br/>
+<p>12. Execute the following command to run the application.</p>
+<code>php artisan serve</code>
+<br/>
+<p>13. Finally, call the following path in your browser.</p>
 <p>http://127.0.0.1:8000</p>
