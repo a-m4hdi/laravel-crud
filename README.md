@@ -15,11 +15,37 @@ In addition, error handling is properly implemented in this project.</p>
 
 <hr>
 
+<h2>Requirements</h2>
+<ul>
+<li>composer</li>
+<li>php</li>
+<li>MySQL</li>
+<li>Nodejs</li>
+</ul>
+<hr>
 <h2>How to use</h2>
-<ol>
-<li>Clone the project using the following command:
-<code>git clone https://github.com/a-m4hdi/laravel-crud.git <code>
-<li>
-</ol>
 
-
+<p>Clone the project using the following command:</p>
+<code>git clone https://github.com/a-m4hdi/laravel-crud.git </code>
+<p>Execute the following command in the root path of the project.</p>
+<code>composer install</code>
+<p>Execute the following command to install the frontend requirements.</p>
+<code>npm install</code>
+<p>Run the following command to compile JavaScript and Sass files.</p>
+<code>npm run prod</code>
+<p>Run the following command to compile JavaScript and Sass files.</p>
+<code>npm run prod</code>
+<p>Set up your database connection through <code>.env.example</code> file.</p>
+<p>Rename .env.example file to .env file</p>
+<p>Execute the following command to create the desired table in the database.</p>
+<code>php artisan migrate:refresh</code>
+<p>Execute the following command to generate the key.</p>
+<code>php artisan key:generate</code>
+<p>Execute the following command to create the desired table in the database.</p>
+<code>php artisan migrate:refresh</code>
+<p>Execute the following command to run the application.</p>
+<code>php artisan serve</code>
+<p>Execute the following command to run the application.</p>
+<code>php artisan serve</code>
+<p>Finally, call the following path in your browser.</p>
+<p>http://127.0.0.1:8000</p>
