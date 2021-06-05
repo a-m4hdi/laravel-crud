@@ -17,3 +17,4 @@ use App\Http\Controllers\CrudController;
 
 Route::post('/add', [CrudController::class, 'Create'])->name('add');
 Route::get('/', [CrudController::class, 'Read']);
+Route::get('/delete/{id}', [CrudController::class, 'Delete']);

@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class CrudController extends Controller
 {
     public function Read()
-    {   
+    {
         $Getdata = Crud::orderBy('id', 'asc')->get();
         return view('crud', ['data' => $Getdata]);
     }
@@ -31,6 +31,13 @@ class CrudController extends Controller
         $Model->Description = $req->Description;
         $Model->save();
         return redirect('/')->with('Create', 'Your data was added.');
+    }
+
+    public function Delete($id)
+    {
+        $GetData = Crud::where('id', $id);
+        $GetData->delete();
+        return redirect('/')->with('Delete', 'Your data was deleted.');
     }
 
 }
