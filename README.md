@@ -43,7 +43,6 @@ In addition, error handling is properly implemented in this project.</p>
 <br/>
 <p>6. Set up your database connection through <code>.env.example</code> file.</p>
 <p>7. Rename .env.example file to .env file</p>
-<br/>
 <p>8. Execute the following command to create the desired table in the database.</p>
 <code>php artisan migrate:refresh</code>
 <br/>
