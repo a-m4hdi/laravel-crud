@@ -14,4 +14,8 @@
   color: red;
 }
 
+.list-body {
+  overflow: auto;
+}
+
 /*# sourceMappingURL=app.min.css.map*/

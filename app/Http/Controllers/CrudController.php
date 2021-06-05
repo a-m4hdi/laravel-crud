@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class CrudController extends Controller
 {
     public function Read()
-    {
-
-        return view('crud');
+    {   
+        $Getdata = Crud::orderBy('id', 'asc')->get();
+        return view('crud', ['data' => $Getdata]);
     }
 
     public function Create(Request $req)

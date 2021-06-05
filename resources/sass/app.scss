@@ -1,10 +1,14 @@
 @import './vendors';
 
-.form-body{
+.form-body {
     width: 65%;
     margin: 0 auto;
 }
 
-.crud-err{
+.crud-err {
     color: red;
+}
+
+.list-body {
+    overflow: auto;
 }
