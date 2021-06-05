@@ -14,6 +14,6 @@ let productionSourceMaps = false;
 
 mix
     
-.js('resources/js/app.js', 'public/js')
+.js('resources/js/app.js', 'public/js/app.min.js')
     .sass('resources/sass/app.scss', 'public/css/app.min.css')
     .sourceMaps(productionSourceMaps, 'source-map');

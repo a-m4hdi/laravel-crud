@@ -11,4 +11,11 @@ class CrudController extends Controller
 
     return view('crud');
  }
+
+
+//  function Create(Request $req){
+
+//    return redirect()
+//  }
+
 }

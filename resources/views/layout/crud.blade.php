@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('/css/app.min.css') }}"/>
 </head>
 <body>
+        @include('layout.navigation')
         <div class="main">
             @yield('content')
         </div>
