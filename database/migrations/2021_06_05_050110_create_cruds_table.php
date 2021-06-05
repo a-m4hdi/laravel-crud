@@ -15,6 +15,11 @@ class CreateCrudsTable extends Migration
     {
         Schema::create('cruds', function (Blueprint $table) {
             $table->id();
+            $table->string('Name');
+            $table->string('Lastname');
+            $table->string('Email');
+            $table->string('Phonenumber');
+            $table->string('Description');
             $table->timestamps();
         });
     }
