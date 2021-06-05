@@ -15,10 +15,11 @@ In addition, error handling is properly implemented in this project.</p>
 
 <hr>
 
-<h2>How to use<h2>
+<h2>How to use</h2>
 <ol>
 <li>Clone the project using the following command:
-<code>git clone https://github.com/a-m4hdi/laravel-crud.git <code><li>
+<code>git clone https://github.com/a-m4hdi/laravel-crud.git <code>
+<li>
 </ol>
 
 
